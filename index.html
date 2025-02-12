@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <style>
+        /* Basic CSS styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f1f1f1;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .hero {
+            background-image: url('hero-bg.jpg'); /* Add actual image */
+            background-size: cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .curriculum {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px 20px;
+        }
+        .stories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 40px 20px;
+        }
+        .story-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 40px 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="assets/logo.png">
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#admission">Admission</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Empowering students from small age towards vision</h1>
+        <p>With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in a Diverse and Dynamic World.</p>
+        <button>Enroll Now</button>
+    </section>
+
+    <section class="curriculum">
+        <div>
+            <h2>Standard Curriculum</h2>
+            <ul>
+                <li>Kinder (3-6) Years</li>
+                <li>Elementary School</li>
+                <li>Middle (10-16) Years</li>
+            </ul>
+        </div>
+        <!-- Add curriculum image here -->
+        <img src="assets/hero-kids.png" alt="Curriculum Image" style="max-width: 500px;">
+    </section>
+
+    <section class="social-section">
+        <p>Our social category provides at margins<br>
+        do permanent moves, success relocates<br>
+        me with graduates</p>
+        
+        <!-- Repeat social section as per content -->
+        <p>Our social category provides at margins<br>
+        do permanent moves, success relocates<br>
+        me with graduates</p>
+    </section>
+
+    <section class="stories">
+        <h2>Our Stories</h2>
+        <div class="stories-grid">
+            <article class="story-card">
+                <h3>November 19, 2019</h3>
+                <img src="toddler-coloring.jpg" alt="Toddler coloring" style="width: 100%;">
+                <h4>A fun toddler coloring training on classroom</h4>
+                <p>Broadful learning for changes by New North Australia,
+                changes to a platform for open discussion in an inclusive and
+                collaborative environment, providing this...</p>
+            </article>
+
+            <!-- Repeat other story cards similarly -->
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <h2>Find out if a school fits the family's needs</h2>
+        <!-- Add contact form/image here -->
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h3>Keep In Touch</h3>
+                <nav>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#facilities">Facilities</a>
+                    <a href="#admission">Admission</a>
+                </nav>
+            </div>
+            <div>
+                <p>Education</p>
+                <p>Plays down older men' lovers' buffalo.<br>
+                Deep color roll melted bacon. Bounce part<br>
+                bacon pineapple. Aussie. Mugs rib sauce.<br>
+                Mountain tree float.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
